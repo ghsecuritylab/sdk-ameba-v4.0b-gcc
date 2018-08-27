@@ -74,7 +74,7 @@ void APP_InitTrace(void)
 }
 
 //default main
-_WEAK void main(void)
+_WEAK void _main(void)
 {
 #if CONFIG_SOC_PS_MODULE	
 	pmu_sysactive_timer_init();
